@@ -160,7 +160,7 @@ namespace PROGpoe
         // Display all supported question topics and example queries
         static void ShareOptions()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Chatbot: You can ask about passwords, phishing, or protecting your personal data.");
             Console.WriteLine("password - Create strong passwords by using a mix of letters, numbers, and symbols. Avoid using personal info!");
             Console.WriteLine("phishing - Be cautious of emails that ask for personal info urgently. Always verify the sender!");
