@@ -18,7 +18,6 @@ namespace PROGpoe
 
             Console.Title = "Cybersecurity Awareness Chatbot";
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(new string('═', 60));
             Console.WriteLine(@"
 
                   __________    ___      ___   _____________         ________
@@ -36,7 +35,7 @@ namespace PROGpoe
 
 ");  // ASCII ART
 
-            Console.WriteLine(new string('═', 60));
+            
 
             //Initial Chatbot greeting
             Console.WriteLine("Hello! Welcome to your Cybersecurity Awareness Assistant!");
